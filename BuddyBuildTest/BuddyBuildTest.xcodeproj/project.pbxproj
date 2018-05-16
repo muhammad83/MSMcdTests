@@ -115,9 +115,9 @@
 			children = (
 				03F3E2C920AC319B001BEB36 /* BuddyBuildTest */,
 				03F3E2DE20AC319D001BEB36 /* BuddyBuildTestUnitTests */,
-				03F3E2E920AC319D001BEB36 /* BuddyBuildTestUITests */,
-				03F3E30B20AC460E001BEB36 /* BuddyBuildTestPerformanceTests */,
 				03F3E2FD20AC4589001BEB36 /* BuddyBuildTestIntegrationTests */,
+				03F3E30B20AC460E001BEB36 /* BuddyBuildTestPerformanceTests */,
+				03F3E2E920AC319D001BEB36 /* BuddyBuildTestUITests */,
 				03F3E2C820AC319B001BEB36 /* Products */,
 			);
 			sourceTree = "<group>";
