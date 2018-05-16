@@ -1,15 +1,14 @@
 //
-//  BuddyBuildTestTests.swift
-//  BuddyBuildTestTests
+//  BuddyBuildTestPerformanceTests.swift
+//  BuddyBuildTestPerformanceTests
 //
 //  Created by Davide De Franceschi on 16/05/2018.
 //  Copyright © 2018 Equal Experts. All rights reserved.
 //
 
 import XCTest
-@testable import BuddyBuildTest
 
-class BuddyBuildTestTests: XCTestCase {
+class BuddyBuildTestPerformanceTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

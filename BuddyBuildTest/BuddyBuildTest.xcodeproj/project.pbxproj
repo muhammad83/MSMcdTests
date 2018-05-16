@@ -12,8 +12,10 @@
 		03F3E2D020AC319C001BEB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F3E2CE20AC319C001BEB36 /* Main.storyboard */; };
 		03F3E2D220AC319D001BEB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F3E2D120AC319D001BEB36 /* Assets.xcassets */; };
 		03F3E2D520AC319D001BEB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F3E2D320AC319D001BEB36 /* LaunchScreen.storyboard */; };
-		03F3E2E020AC319D001BEB36 /* BuddyBuildTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3E2DF20AC319D001BEB36 /* BuddyBuildTestTests.swift */; };
+		03F3E2E020AC319D001BEB36 /* BuddyBuildTestUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3E2DF20AC319D001BEB36 /* BuddyBuildTestUnitTests.swift */; };
 		03F3E2EB20AC319D001BEB36 /* BuddyBuildTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3E2EA20AC319D001BEB36 /* BuddyBuildTestUITests.swift */; };
+		03F3E2FF20AC4589001BEB36 /* BuddyBuildTestIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3E2FE20AC4589001BEB36 /* BuddyBuildTestIntegrationTests.swift */; };
+		03F3E30D20AC460E001BEB36 /* BuddyBuildTestPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3E30C20AC460E001BEB36 /* BuddyBuildTestPerformanceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,20 @@
 			remoteGlobalIDString = 03F3E2C620AC319B001BEB36;
 			remoteInfo = BuddyBuildTest;
 		};
+		03F3E30120AC4589001BEB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F3E2BF20AC319B001BEB36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F3E2C620AC319B001BEB36;
+			remoteInfo = BuddyBuildTest;
+		};
+		03F3E30F20AC460E001BEB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F3E2BF20AC319B001BEB36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F3E2C620AC319B001BEB36;
+			remoteInfo = BuddyBuildTest;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -41,12 +57,18 @@
 		03F3E2D120AC319D001BEB36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F3E2D420AC319D001BEB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03F3E2D620AC319D001BEB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03F3E2DB20AC319D001BEB36 /* BuddyBuildTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuildTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03F3E2DF20AC319D001BEB36 /* BuddyBuildTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyBuildTestTests.swift; sourceTree = "<group>"; };
+		03F3E2DB20AC319D001BEB36 /* BuddyBuildTestUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuildTestUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F3E2DF20AC319D001BEB36 /* BuddyBuildTestUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyBuildTestUnitTests.swift; sourceTree = "<group>"; };
 		03F3E2E120AC319D001BEB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03F3E2E620AC319D001BEB36 /* BuddyBuildTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuildTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F3E2EA20AC319D001BEB36 /* BuddyBuildTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyBuildTestUITests.swift; sourceTree = "<group>"; };
 		03F3E2EC20AC319D001BEB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F3E2FC20AC4589001BEB36 /* BuddyBuildTestIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuildTestIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F3E2FE20AC4589001BEB36 /* BuddyBuildTestIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyBuildTestIntegrationTests.swift; sourceTree = "<group>"; };
+		03F3E30020AC4589001BEB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F3E30A20AC460E001BEB36 /* BuddyBuildTestPerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuildTestPerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F3E30C20AC460E001BEB36 /* BuddyBuildTestPerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyBuildTestPerformanceTests.swift; sourceTree = "<group>"; };
+		03F3E30E20AC460E001BEB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03F3E2F920AC4589001BEB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F3E30720AC460E001BEB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,8 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				03F3E2C920AC319B001BEB36 /* BuddyBuildTest */,
-				03F3E2DE20AC319D001BEB36 /* BuddyBuildTestTests */,
+				03F3E2DE20AC319D001BEB36 /* BuddyBuildTestUnitTests */,
 				03F3E2E920AC319D001BEB36 /* BuddyBuildTestUITests */,
+				03F3E30B20AC460E001BEB36 /* BuddyBuildTestPerformanceTests */,
+				03F3E2FD20AC4589001BEB36 /* BuddyBuildTestIntegrationTests */,
 				03F3E2C820AC319B001BEB36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +126,10 @@
 			isa = PBXGroup;
 			children = (
 				03F3E2C720AC319B001BEB36 /* BuddyBuildTest.app */,
-				03F3E2DB20AC319D001BEB36 /* BuddyBuildTestTests.xctest */,
+				03F3E2DB20AC319D001BEB36 /* BuddyBuildTestUnitTests.xctest */,
 				03F3E2E620AC319D001BEB36 /* BuddyBuildTestUITests.xctest */,
+				03F3E2FC20AC4589001BEB36 /* BuddyBuildTestIntegrationTests.xctest */,
+				03F3E30A20AC460E001BEB36 /* BuddyBuildTestPerformanceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,13 +147,13 @@
 			path = BuddyBuildTest;
 			sourceTree = "<group>";
 		};
-		03F3E2DE20AC319D001BEB36 /* BuddyBuildTestTests */ = {
+		03F3E2DE20AC319D001BEB36 /* BuddyBuildTestUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				03F3E2DF20AC319D001BEB36 /* BuddyBuildTestTests.swift */,
+				03F3E2DF20AC319D001BEB36 /* BuddyBuildTestUnitTests.swift */,
 				03F3E2E120AC319D001BEB36 /* Info.plist */,
 			);
-			path = BuddyBuildTestTests;
+			path = BuddyBuildTestUnitTests;
 			sourceTree = "<group>";
 		};
 		03F3E2E920AC319D001BEB36 /* BuddyBuildTestUITests */ = {
@@ -123,6 +163,24 @@
 				03F3E2EC20AC319D001BEB36 /* Info.plist */,
 			);
 			path = BuddyBuildTestUITests;
+			sourceTree = "<group>";
+		};
+		03F3E2FD20AC4589001BEB36 /* BuddyBuildTestIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F3E2FE20AC4589001BEB36 /* BuddyBuildTestIntegrationTests.swift */,
+				03F3E30020AC4589001BEB36 /* Info.plist */,
+			);
+			path = BuddyBuildTestIntegrationTests;
+			sourceTree = "<group>";
+		};
+		03F3E30B20AC460E001BEB36 /* BuddyBuildTestPerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F3E30C20AC460E001BEB36 /* BuddyBuildTestPerformanceTests.swift */,
+				03F3E30E20AC460E001BEB36 /* Info.plist */,
+			);
+			path = BuddyBuildTestPerformanceTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +203,9 @@
 			productReference = 03F3E2C720AC319B001BEB36 /* BuddyBuildTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03F3E2DA20AC319D001BEB36 /* BuddyBuildTestTests */ = {
+		03F3E2DA20AC319D001BEB36 /* BuddyBuildTestUnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03F3E2F220AC319D001BEB36 /* Build configuration list for PBXNativeTarget "BuddyBuildTestTests" */;
+			buildConfigurationList = 03F3E2F220AC319D001BEB36 /* Build configuration list for PBXNativeTarget "BuddyBuildTestUnitTests" */;
 			buildPhases = (
 				03F3E2D720AC319D001BEB36 /* Sources */,
 				03F3E2D820AC319D001BEB36 /* Frameworks */,
@@ -158,9 +216,9 @@
 			dependencies = (
 				03F3E2DD20AC319D001BEB36 /* PBXTargetDependency */,
 			);
-			name = BuddyBuildTestTests;
+			name = BuddyBuildTestUnitTests;
 			productName = BuddyBuildTestTests;
-			productReference = 03F3E2DB20AC319D001BEB36 /* BuddyBuildTestTests.xctest */;
+			productReference = 03F3E2DB20AC319D001BEB36 /* BuddyBuildTestUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		03F3E2E520AC319D001BEB36 /* BuddyBuildTestUITests */ = {
@@ -180,6 +238,42 @@
 			productName = BuddyBuildTestUITests;
 			productReference = 03F3E2E620AC319D001BEB36 /* BuddyBuildTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		03F3E2FB20AC4589001BEB36 /* BuddyBuildTestIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F3E30320AC4589001BEB36 /* Build configuration list for PBXNativeTarget "BuddyBuildTestIntegrationTests" */;
+			buildPhases = (
+				03F3E2F820AC4589001BEB36 /* Sources */,
+				03F3E2F920AC4589001BEB36 /* Frameworks */,
+				03F3E2FA20AC4589001BEB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F3E30220AC4589001BEB36 /* PBXTargetDependency */,
+			);
+			name = BuddyBuildTestIntegrationTests;
+			productName = BuddyBuildTestIntegrationTests;
+			productReference = 03F3E2FC20AC4589001BEB36 /* BuddyBuildTestIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03F3E30920AC460E001BEB36 /* BuddyBuildTestPerformanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F3E31120AC460E001BEB36 /* Build configuration list for PBXNativeTarget "BuddyBuildTestPerformanceTests" */;
+			buildPhases = (
+				03F3E30620AC460E001BEB36 /* Sources */,
+				03F3E30720AC460E001BEB36 /* Frameworks */,
+				03F3E30820AC460E001BEB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F3E31020AC460E001BEB36 /* PBXTargetDependency */,
+			);
+			name = BuddyBuildTestPerformanceTests;
+			productName = BuddyBuildTestPerformanceTests;
+			productReference = 03F3E30A20AC460E001BEB36 /* BuddyBuildTestPerformanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,6 +296,14 @@
 						CreatedOnToolsVersion = 9.3.1;
 						TestTargetID = 03F3E2C620AC319B001BEB36;
 					};
+					03F3E2FB20AC4589001BEB36 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 03F3E2C620AC319B001BEB36;
+					};
+					03F3E30920AC460E001BEB36 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 03F3E2C620AC319B001BEB36;
+					};
 				};
 			};
 			buildConfigurationList = 03F3E2C220AC319B001BEB36 /* Build configuration list for PBXProject "BuddyBuildTest" */;
@@ -218,7 +320,9 @@
 			projectRoot = "";
 			targets = (
 				03F3E2C620AC319B001BEB36 /* BuddyBuildTest */,
-				03F3E2DA20AC319D001BEB36 /* BuddyBuildTestTests */,
+				03F3E2DA20AC319D001BEB36 /* BuddyBuildTestUnitTests */,
+				03F3E2FB20AC4589001BEB36 /* BuddyBuildTestIntegrationTests */,
+				03F3E30920AC460E001BEB36 /* BuddyBuildTestPerformanceTests */,
 				03F3E2E520AC319D001BEB36 /* BuddyBuildTestUITests */,
 			);
 		};
@@ -249,6 +353,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03F3E2FA20AC4589001BEB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F3E30820AC460E001BEB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,7 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F3E2E020AC319D001BEB36 /* BuddyBuildTestTests.swift in Sources */,
+				03F3E2E020AC319D001BEB36 /* BuddyBuildTestUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +392,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				03F3E2EB20AC319D001BEB36 /* BuddyBuildTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F3E2F820AC4589001BEB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F3E2FF20AC4589001BEB36 /* BuddyBuildTestIntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F3E30620AC460E001BEB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F3E30D20AC460E001BEB36 /* BuddyBuildTestPerformanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +423,16 @@
 			isa = PBXTargetDependency;
 			target = 03F3E2C620AC319B001BEB36 /* BuddyBuildTest */;
 			targetProxy = 03F3E2E720AC319D001BEB36 /* PBXContainerItemProxy */;
+		};
+		03F3E30220AC4589001BEB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F3E2C620AC319B001BEB36 /* BuddyBuildTest */;
+			targetProxy = 03F3E30120AC4589001BEB36 /* PBXContainerItemProxy */;
+		};
+		03F3E31020AC460E001BEB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F3E2C620AC319B001BEB36 /* BuddyBuildTest */;
+			targetProxy = 03F3E30F20AC460E001BEB36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -538,6 +682,82 @@
 			};
 			name = Release;
 		};
+		03F3E30420AC4589001BEB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuddyBuildTestIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.equalexperts.BuddyBuildTestIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyBuildTest.app/BuddyBuildTest";
+			};
+			name = Debug;
+		};
+		03F3E30520AC4589001BEB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuddyBuildTestIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.equalexperts.BuddyBuildTestIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyBuildTest.app/BuddyBuildTest";
+			};
+			name = Release;
+		};
+		03F3E31220AC460E001BEB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuddyBuildTestPerformanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.equalexperts.BuddyBuildTestPerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyBuildTest.app/BuddyBuildTest";
+			};
+			name = Debug;
+		};
+		03F3E31320AC460E001BEB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuddyBuildTestPerformanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.equalexperts.BuddyBuildTestPerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyBuildTest.app/BuddyBuildTest";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -559,7 +779,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03F3E2F220AC319D001BEB36 /* Build configuration list for PBXNativeTarget "BuddyBuildTestTests" */ = {
+		03F3E2F220AC319D001BEB36 /* Build configuration list for PBXNativeTarget "BuddyBuildTestUnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03F3E2F320AC319D001BEB36 /* Debug */,
@@ -573,6 +793,24 @@
 			buildConfigurations = (
 				03F3E2F620AC319D001BEB36 /* Debug */,
 				03F3E2F720AC319D001BEB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F3E30320AC4589001BEB36 /* Build configuration list for PBXNativeTarget "BuddyBuildTestIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F3E30420AC4589001BEB36 /* Debug */,
+				03F3E30520AC4589001BEB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F3E31120AC460E001BEB36 /* Build configuration list for PBXNativeTarget "BuddyBuildTestPerformanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F3E31220AC460E001BEB36 /* Debug */,
+				03F3E31320AC460E001BEB36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
