@@ -20,7 +20,7 @@ class BuddyBuildTestIntegrationTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testIntegrationExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

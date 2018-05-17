@@ -21,7 +21,7 @@ class BuddyBuildTestUnitTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testUnitExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
