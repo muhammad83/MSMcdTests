@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import MCNumberLabel
 
 class ViewController: UIViewController {
 
-}
+    @IBOutlet weak var scoreLabel: MCNumberLabel!
 
+}
