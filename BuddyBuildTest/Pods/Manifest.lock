@@ -1,0 +1,12 @@
+PODS:
+  - MCNumberLabel (0.1.1)
+
+DEPENDENCIES:
+  - MCNumberLabel
+
+SPEC CHECKSUMS:
+  MCNumberLabel: bb9fad79d19ddcaf6e9be1ce5d7fbf73421aa1d4
+
+PODFILE CHECKSUM: c79b1767e38b8c97ba749610388c6d57740bce9c
+
+COCOAPODS: 1.4.0
