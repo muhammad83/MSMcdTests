@@ -1,4 +1,2 @@
 # MSM cd tests
-testing build piple line with a 
-## iosHelloWorld
-
+testing build piple line, tests and triggers
