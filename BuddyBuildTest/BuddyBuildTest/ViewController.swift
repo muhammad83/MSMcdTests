@@ -7,8 +7,16 @@
 //
 
 import UIKit
+import MCNumberLabel
 
 class ViewController: UIViewController {
 
-}
+    @IBOutlet weak var scoreLabel: MCNumberLabel!
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: false) { _ in
+            self.scoreLabel.setValue(432, duration: 2)
+        }
+    }
+}
