@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -91,9 +90,18 @@
                                     <constraint firstAttribute="trailing" secondItem="gFE-oP-PGN" secondAttribute="trailing" constant="16" id="NEX-zn-B02"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xjb-LM-PKS">
+                                <rect key="frame" x="136.5" y="617" width="101" height="30"/>
+                                <state key="normal" title="Set a reminder"/>
+                                <connections>
+                                    <action selector="didTapSetReminder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q5d-EF-Luf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xjb-LM-PKS" secondAttribute="bottom" constant="20" id="7Rx-aX-60F"/>
+                            <constraint firstItem="Xjb-LM-PKS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9uQ-cM-GSO"/>
                             <constraint firstItem="5vJ-Ew-ppB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Phl-yH-Run"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5vJ-Ew-ppB" secondAttribute="trailing" id="smf-Mk-vRm"/>
                             <constraint firstItem="5vJ-Ew-ppB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="x0h-pX-OMC"/>

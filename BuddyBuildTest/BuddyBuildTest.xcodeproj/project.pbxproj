@@ -17,6 +17,7 @@
 		03F3E2EB20AC319D001BEB36 /* BuddyBuildTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3E2EA20AC319D001BEB36 /* BuddyBuildTestUITests.swift */; };
 		03F3E2FF20AC4589001BEB36 /* BuddyBuildTestIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3E2FE20AC4589001BEB36 /* BuddyBuildTestIntegrationTests.swift */; };
 		03F3E30D20AC460E001BEB36 /* BuddyBuildTestPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3E30C20AC460E001BEB36 /* BuddyBuildTestPerformanceTests.swift */; };
+		5359D64720AF15E300EDC9C4 /* bear.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5359D64620AF15E300EDC9C4 /* bear.gif */; };
 		60ED72DE8FE92F0EC9F1C050 /* Pods_BuddyBuildTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE441C909847DA37C31F150 /* Pods_BuddyBuildTest.framework */; };
 		6911746DEF8B68E2206A0293 /* Pods_BuddyBuildTestUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C4DBCEA70F81804F541CAB /* Pods_BuddyBuildTestUnitTests.framework */; };
 		6BD2DFAF878780F985775575 /* Pods_BuddyBuildTestIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92E0E3F95D728422F318518 /* Pods_BuddyBuildTestIntegrationTests.framework */; };
@@ -80,6 +81,7 @@
 		320AF52B206BFF98141DFECC /* Pods-BuddyBuildTestPerformanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyBuildTestPerformanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyBuildTestPerformanceTests/Pods-BuddyBuildTestPerformanceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		494918AA14A71CF3E6A95591 /* Pods-BuddyBuildTestPerformanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyBuildTestPerformanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyBuildTestPerformanceTests/Pods-BuddyBuildTestPerformanceTests.release.xcconfig"; sourceTree = "<group>"; };
 		526E0CF2B4E896D91FC51F74 /* Pods-BuddyBuildTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyBuildTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyBuildTest/Pods-BuddyBuildTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5359D64620AF15E300EDC9C4 /* bear.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bear.gif; sourceTree = "<group>"; };
 		6058805780A3438B64A12D74 /* Pods-BuddyBuildTestIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyBuildTestIntegrationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyBuildTestIntegrationTests/Pods-BuddyBuildTestIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
 		6FE441C909847DA37C31F150 /* Pods_BuddyBuildTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuddyBuildTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C4DBCEA70F81804F541CAB /* Pods_BuddyBuildTestUnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuddyBuildTestUnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +172,7 @@
 				03F3E2D120AC319D001BEB36 /* Assets.xcassets */,
 				03F3E2D320AC319D001BEB36 /* LaunchScreen.storyboard */,
 				03F3E2D620AC319D001BEB36 /* Info.plist */,
+				5359D64620AF15E300EDC9C4 /* bear.gif */,
 			);
 			path = BuddyBuildTest;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 			files = (
 				03F3E2D520AC319D001BEB36 /* LaunchScreen.storyboard in Resources */,
 				03F3E2D220AC319D001BEB36 /* Assets.xcassets in Resources */,
+				5359D64720AF15E300EDC9C4 /* bear.gif in Resources */,
 				03F3E2D020AC319C001BEB36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
