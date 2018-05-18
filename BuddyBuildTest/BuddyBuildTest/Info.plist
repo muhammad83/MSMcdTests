@@ -15,9 +15,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>???</string>
+	<string>dynamically generated at buildtime</string>
 	<key>CFBundleVersion</key>
-	<string>???</string>
+	<string>dynamically generated at buildtime</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
