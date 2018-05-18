@@ -253,6 +253,7 @@
 				03F3E2C520AC319B001BEB36 /* Resources */,
 				00D17479A6C272BAE785D941 /* [CP] Embed Pods Frameworks */,
 				9069A0E64FF93AA7C22F8A49 /* [CP] Copy Pods Resources */,
+				03F3E32B20AF2222001BEB36 /* [CUSTOM] Reset Version Number */,
 			);
 			buildRules = (
 			);
@@ -488,6 +489,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh $SRCROOT/scripts/update_plist_versions.sh";
+		};
+		03F3E32B20AF2222001BEB36 /* [CUSTOM] Reset Version Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CUSTOM] Reset Version Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh $SRCROOT/scripts/reset_plist_versions.sh";
 		};
 		10BF077C5DDBCA90839FE87B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
