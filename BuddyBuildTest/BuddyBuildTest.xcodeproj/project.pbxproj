@@ -246,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03F3E2EF20AC319D001BEB36 /* Build configuration list for PBXNativeTarget "BuddyBuildTest" */;
 			buildPhases = (
+				03F3E32A20AF1FCC001BEB36 /* [CUSTOM] Set Version Number */,
 				AB53B34A725529D327091AA3 /* [CP] Check Pods Manifest.lock */,
 				03F3E2C320AC319B001BEB36 /* Sources */,
 				03F3E2C420AC319B001BEB36 /* Frameworks */,
@@ -473,6 +474,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyBuildTest/Pods-BuddyBuildTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		03F3E32A20AF1FCC001BEB36 /* [CUSTOM] Set Version Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CUSTOM] Set Version Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh $SRCROOT/scripts/update_plist_versions.sh";
 		};
 		10BF077C5DDBCA90839FE87B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
