@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
+WD=$(dirname $0)
 COMMIT_COUNT=$(git rev-list --count HEAD)
 COMMIT_HASH=$(git rev-parse HEAD)
 LAST_TAG=$(git describe --tags --abbrev=0)
-NEXT_TAG=$(./semver.sh bump patch $LAST_TAG)
+NEXT_TAG=$($WD/semver.sh bump patch $LAST_TAG)
 
 BUILD_NUMBER=$COMMIT_COUNT
 if [[ ! -n $(git tag --points-at HEAD) ]]
